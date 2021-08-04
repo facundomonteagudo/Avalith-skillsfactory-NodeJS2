@@ -54,8 +54,8 @@ app.post("/login", async (req, res) => {
   }
 });
 
-app.post("/greetings", authToken, (req, res) => {
-  res.status(200).json({ message: `Hello user '${req.user.name}'` });
+app.get("/greetings", authToken, (req, res) => {
+  res.status(200).json({ message: `Hello user '${req.user.name}'👋` });
 });
 
 /* for testing with Thunder Client...*/
