@@ -1,0 +1,16 @@
+{
+    "users": [
+        {
+            "name": "Facundo",
+            "password": "$2b$10$D.XoEFU6rkxFFEolxfafLey5duTpZ/1gBiPCgp7fqvvAUgie2FipG"
+        },
+        {
+            "name": "Damian",
+            "password": "$2b$10$fxo83s.RtM8.O7FQcXGV1OcIaSH/xh5Sjpd8i9FRT0pNjMps./wxi"
+        },
+        {
+            "name": "Lucia",
+            "password": "$2b$10$4YACRDzDy93QfJQK/L92Wu5L3bM50HG5.MpNo.yDDHkPIeO7pZW9y"
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+POST http://localhost:3000/login
+Content-Type: application/json
+
+{
+    "name": "Facundo",
+    "password": "123456"
+}
+
+###
+
+POST http://localhost:3000/greetings
+Authorization: Bearer 'token'
+
